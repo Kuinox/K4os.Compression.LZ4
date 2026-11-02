@@ -210,6 +210,7 @@ internal unsafe partial class LL64
 					* If it doesn't work out, the info won't be wasted. */
 					length = token & ML_MASK; /* match length */
 					offset = Mem.Peek2(ip);
+					if (offset == 0) goto _output_error;
 					ip += 2;
 					match = op - offset;
 					Assert(match <= op); /* check overflow */
@@ -323,6 +324,7 @@ internal unsafe partial class LL64
 
 				/* get offset */
 				offset = Mem.Peek2(ip);
+				if (offset == 0) goto _output_error;
 				ip += 2;
 				match = op - offset;
 
