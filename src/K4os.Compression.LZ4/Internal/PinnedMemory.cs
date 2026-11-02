@@ -4,14 +4,14 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace K4os.Compression.LZ4.Internal;
+namespace Plank.Vendored.LZ4.Internal;
 
 /// <summary>
 /// Represents pinned memory.
 /// It either points to unmanaged memory or block of memory from shared array pool.
 /// When disposed, it handles it appropriately.
 /// </summary>
-public unsafe struct PinnedMemory
+internal unsafe struct PinnedMemory
 {
 	/// <summary>
 	/// Maximum size of the buffer that can be pooled from shared array pool.

@@ -7,7 +7,7 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace K4os.Compression.LZ4.Engine;
+namespace Plank.Vendored.LZ4.Engine;
 
 internal static unsafe class LLxx
 {
@@ -28,7 +28,7 @@ internal static unsafe class LLxx
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public static int LZ4_decompress_safe_partial(
 		byte* source, byte* target, int sourceLength, int targetLength) =>
-		// Note from original LZ4 docs (since K4os.Compression.LZ4 is a source faithful port)
+		// Note from original LZ4 docs (since Plank.Vendored.LZ4 is a source faithful port)
 		// this function effectively stops decoding on reaching targetOutputSize, so dstCapacity is kind of redundant.
 		LL.Algorithm switch {
 			Algorithm.X64 => LL64.LZ4_decompress_safe_partial(

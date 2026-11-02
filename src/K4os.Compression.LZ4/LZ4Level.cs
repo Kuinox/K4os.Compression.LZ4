@@ -1,9 +1,9 @@
 ﻿// ReSharper disable InconsistentNaming
 
-namespace K4os.Compression.LZ4;
+namespace Plank.Vendored.LZ4;
 
 /// <summary>Compression level.</summary>
-public enum LZ4Level
+internal enum LZ4Level
 {
 	/// <summary>Fast compression.</summary>
 	L00_FAST = 0,

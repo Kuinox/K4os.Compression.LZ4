@@ -8,13 +8,13 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace K4os.Compression.LZ4.Internal
+namespace Plank.Vendored.LZ4.Internal
 {
 	/// <summary>Unsafe memory operations.</summary>
 	#if BIT32
-	public unsafe class Mem32: Mem
+	internal unsafe class Mem32: Mem
 	#else
-	public unsafe class Mem64: Mem
+	internal unsafe class Mem64: Mem
 	#endif
 	{
 		#if !BIT32

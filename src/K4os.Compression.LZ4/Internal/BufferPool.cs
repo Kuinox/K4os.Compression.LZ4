@@ -4,12 +4,12 @@ using System;
 using System.Buffers;
 using System.Runtime.CompilerServices;
 
-namespace K4os.Compression.LZ4.Internal;
+namespace Plank.Vendored.LZ4.Internal;
 
 /// <summary>
 /// Naive wrapper around ArrayPool. Makes calls if something should be pooled. 
 /// </summary>
-public static class BufferPool
+internal static class BufferPool
 {
 	/// <summary>Minimum size of the buffer that can be pooled.</summary>
 	public const int MinPooledSize = 512;

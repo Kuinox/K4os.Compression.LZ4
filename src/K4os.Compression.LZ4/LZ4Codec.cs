@@ -1,13 +1,13 @@
 #nullable enable
 
-using K4os.Compression.LZ4.Engine;
+using Plank.Vendored.LZ4.Engine;
 
-namespace K4os.Compression.LZ4;
+namespace Plank.Vendored.LZ4;
 
 /// <summary>
 /// Static class exposing LZ4 block compression methods.
 /// </summary>
-public static class LZ4Codec
+internal static class LZ4Codec
 {
 	/// <summary>Version of LZ4 implementation.</summary>
 	public const int Version = 192;
