@@ -1,4 +1,4 @@
-﻿namespace K4os.Compression.LZ4.Encoders;
+﻿namespace Plank.K4os.LZ4.Encoders;
 
 /// <summary>
 /// Action performed by encoder using <c>FlushAndEncode</c> method.

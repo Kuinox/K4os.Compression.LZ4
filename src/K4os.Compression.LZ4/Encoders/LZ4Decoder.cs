@@ -1,4 +1,4 @@
-﻿namespace K4os.Compression.LZ4.Encoders;
+﻿namespace Plank.K4os.LZ4.Encoders;
 
 /// <summary>
 /// Static class with factory methods to create LZ4 decoders.

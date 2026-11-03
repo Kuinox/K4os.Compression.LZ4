@@ -4,7 +4,7 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace K4os.Compression.LZ4.Internal;
+namespace Plank.K4os.LZ4.Internal;
 
 /// <summary>
 /// Represents pinned memory.

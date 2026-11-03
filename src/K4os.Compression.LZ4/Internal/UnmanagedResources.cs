@@ -1,6 +1,6 @@
 ﻿#nullable enable
 
-namespace K4os.Compression.LZ4.Internal;
+namespace Plank.K4os.LZ4.Internal;
 
 /// <summary>
 /// Skeleton for class with unmanaged resources.

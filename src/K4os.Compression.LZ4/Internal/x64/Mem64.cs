@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace K4os.Compression.LZ4.Internal
+namespace Plank.K4os.LZ4.Internal
 {
 	/// <summary>Unsafe memory operations.</summary>
 	#if BIT32

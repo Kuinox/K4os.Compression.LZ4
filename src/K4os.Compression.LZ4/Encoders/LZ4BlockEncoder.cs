@@ -1,4 +1,4 @@
-﻿namespace K4os.Compression.LZ4.Encoders;
+﻿namespace Plank.K4os.LZ4.Encoders;
 
 /// <summary>
 /// Independent block encoder. Produces larger files but uses less memory and

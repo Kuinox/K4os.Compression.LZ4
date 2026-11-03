@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 using size_t = System.UInt32;
 using uptr_t = System.UInt64;
 
-namespace K4os.Compression.LZ4.Engine;
+namespace Plank.K4os.LZ4.Engine;
 
 internal unsafe partial class LL
 {
