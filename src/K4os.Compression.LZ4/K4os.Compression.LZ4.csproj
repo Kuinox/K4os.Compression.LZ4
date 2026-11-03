@@ -1,25 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net462;net8.0;net10.0</TargetFrameworks>
-    <IsPackable>true</IsPackable>
-    <SignAssembly>true</SignAssembly>
-    <PackageTags>$(PackageTags)</PackageTags>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Plank.K4os.LZ4</AssemblyName>
+    <IsPackable>false</IsPackable>
+    <SignAssembly>false</SignAssembly>
     <Nullable>disable</Nullable>
   </PropertyGroup>
-  <Import Project="$(PublicAssemblyProps)"/>
-  <ItemGroup>
-    <Folder Include="Engine\x32"/>
-    <Folder Include="Internal\x32"/>
-  </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net462' ">
-    <PackageReference Include="System.Memory" Version="4.6.3"/>
-    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.1.2"/>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="PolySharp" Version="1.15.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
 </Project>
