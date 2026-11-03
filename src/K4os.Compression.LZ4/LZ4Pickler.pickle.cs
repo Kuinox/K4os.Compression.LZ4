@@ -4,9 +4,9 @@ using System;
 using System.Buffers;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using K4os.Compression.LZ4.Internal;
+using Plank.K4os.LZ4.Internal;
 
-namespace K4os.Compression.LZ4;
+namespace Plank.K4os.LZ4;
 
 /// <summary>
 /// Pickling support with LZ4 compression.

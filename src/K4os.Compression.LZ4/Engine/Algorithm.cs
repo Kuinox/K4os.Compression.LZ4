@@ -1,4 +1,4 @@
-namespace K4os.Compression.LZ4.Engine;
+namespace Plank.K4os.LZ4.Engine;
 
 /// <summary>Algorithm selection.</summary>
 public enum Algorithm

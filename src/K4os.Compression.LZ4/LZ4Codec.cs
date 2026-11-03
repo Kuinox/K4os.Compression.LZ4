@@ -1,8 +1,8 @@
 #nullable enable
 
-using K4os.Compression.LZ4.Engine;
+using Plank.K4os.LZ4.Engine;
 
-namespace K4os.Compression.LZ4;
+namespace Plank.K4os.LZ4;
 
 /// <summary>
 /// Static class exposing LZ4 block compression methods.

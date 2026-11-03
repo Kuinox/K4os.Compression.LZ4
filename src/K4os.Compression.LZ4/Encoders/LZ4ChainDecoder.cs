@@ -1,8 +1,8 @@
 ﻿using System;
-using K4os.Compression.LZ4.Engine;
-using K4os.Compression.LZ4.Internal;
+using Plank.K4os.LZ4.Engine;
+using Plank.K4os.LZ4.Internal;
 
-namespace K4os.Compression.LZ4.Encoders;
+namespace Plank.K4os.LZ4.Encoders;
 
 // fast decoder context
 using LZ4Context = LL.LZ4_streamDecode_t;

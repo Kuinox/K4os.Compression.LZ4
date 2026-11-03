@@ -6,12 +6,12 @@
 
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using K4os.Compression.LZ4.Internal;
+using Plank.K4os.LZ4.Internal;
 
 using size_t = System.UInt32;
 using uptr_t = System.UInt64;
 
-namespace K4os.Compression.LZ4.Engine
+namespace Plank.K4os.LZ4.Engine
 {
 	internal unsafe partial class LL
 	{

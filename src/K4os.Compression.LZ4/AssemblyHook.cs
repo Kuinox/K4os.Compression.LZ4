@@ -1,4 +1,4 @@
-namespace K4os.Compression.LZ4;
+namespace Plank.K4os.LZ4;
 
 internal class AssemblyHook
 {

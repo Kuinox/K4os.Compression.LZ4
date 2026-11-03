@@ -1,8 +1,8 @@
 #nullable enable
 
-using K4os.Compression.LZ4.Internal;
+using Plank.K4os.LZ4.Internal;
 
-namespace K4os.Compression.LZ4.Engine;
+namespace Plank.K4os.LZ4.Engine;
 
 /// <summary>
 /// Existence of this class is an admission of failure.

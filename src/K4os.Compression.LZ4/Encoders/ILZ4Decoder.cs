@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace K4os.Compression.LZ4.Encoders;
+namespace Plank.K4os.LZ4.Encoders;
 
 /// <summary>
 /// Interface of LZ4 decoder used by LZ4 streams.

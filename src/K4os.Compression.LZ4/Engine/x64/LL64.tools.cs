@@ -9,10 +9,10 @@ using System.Runtime.CompilerServices;
 
 #if BIT32
 using reg_t = System.UInt32;
-using Mem = K4os.Compression.LZ4.Internal.Mem32;
+using Mem = Plank.K4os.LZ4.Internal.Mem32;
 #else
 using reg_t = System.UInt64;
-using Mem = K4os.Compression.LZ4.Internal.Mem64;
+using Mem = Plank.K4os.LZ4.Internal.Mem64;
 #endif
 
 #if NET5_0_OR_GREATER && !BIT32
@@ -22,7 +22,7 @@ using System.Numerics;
 using size_t = System.UInt32;
 using uptr_t = System.UInt64;
 
-namespace K4os.Compression.LZ4.Engine;
+namespace Plank.K4os.LZ4.Engine;
 
 #if BIT32
 internal unsafe partial class LL32: LL

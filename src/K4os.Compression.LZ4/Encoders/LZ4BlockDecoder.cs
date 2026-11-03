@@ -1,7 +1,7 @@
 ﻿using System;
-using K4os.Compression.LZ4.Internal;
+using Plank.K4os.LZ4.Internal;
 
-namespace K4os.Compression.LZ4.Encoders;
+namespace Plank.K4os.LZ4.Encoders;
 
 /// <summary>
 /// LZ4 decoder used with independent blocks mode. Please note, that it will fail

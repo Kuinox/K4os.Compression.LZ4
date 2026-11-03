@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace K4os.Compression.LZ4.Internal;
+namespace Plank.K4os.LZ4.Internal;
 
 /// <summary>Utility class with memory related functions.</summary>
 public unsafe class Mem

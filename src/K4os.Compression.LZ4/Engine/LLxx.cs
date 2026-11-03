@@ -7,7 +7,7 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace K4os.Compression.LZ4.Engine;
+namespace Plank.K4os.LZ4.Engine;
 
 internal static unsafe class LLxx
 {
