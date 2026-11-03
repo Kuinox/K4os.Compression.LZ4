@@ -1,9 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk" TreatAsLocalProperty="Version">
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>Plank.K4os.LZ4</AssemblyName>
-    <IsPackable>false</IsPackable>
+    <IsPackable>true</IsPackable>
+    <PackageId>Plank.K4os.LZ4</PackageId>
+    <Version>1.3.8.1</Version>
+    <Authors>Milosz Krajewski;Kuinox</Authors>
+    <Description>K4os LZ4 block compression with a fix for invalid zero match offsets.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.Plank.K4os.LZ4.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Kuinox/K4os.Compression.LZ4</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <SignAssembly>false</SignAssembly>
     <Nullable>disable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.Plank.K4os.LZ4.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
